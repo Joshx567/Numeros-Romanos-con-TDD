@@ -6,19 +6,19 @@ describe("NumeroRomano", () => {
   });
 
   it("deberia poner el valor correspondiente en romano", () => {
-    expect(generarNumeroRomano(13)).toEqual('XIII');
+    expect(generarNumeroRomano(10)).toEqual('X');
   });
 
   it("deberia poner el valor correspondiente en romano", () => {
-    expect(generarNumeroRomano(103)).toEqual('CIII');
+    expect(generarNumeroRomano(9)).toEqual('IX');
   });
 
   it("deberia poner el valor correspondiente en romano", () => {
-    expect(generarNumeroRomano(1000)).toEqual('M');
+    expect(generarNumeroRomano(5)).toEqual('V');
   });
   
   it("deberia poner el valor correspondiente en romano", () => {
-    expect(generarNumeroRomano(600)).toEqual('DC');
+    expect(generarNumeroRomano(4)).toEqual('IV');
   });
 
   it("deberia poner el valor fuera de rango", () => {

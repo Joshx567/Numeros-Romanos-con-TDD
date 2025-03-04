@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "default": "index.html",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",

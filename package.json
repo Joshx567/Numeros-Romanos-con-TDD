@@ -15,6 +15,9 @@
     "semantic-commits-on": "node semantic-commits.js enable",
     "semantic-commits-off": "node semantic-commits.js disabled"
   },
+  "jest": {
+    "testMatch": ["**/__tests__/**/*.[jt]s?(x)", "**/?(*.)+(spec|test).[jt]s?(x)"]
+  },
   "author": "Israel Antezana R.",
   "license": "ISC",
   "devDependencies": {

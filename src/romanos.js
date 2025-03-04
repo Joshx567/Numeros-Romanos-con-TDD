@@ -19,4 +19,4 @@ function generarNumeroRomano(numero) {
     return resultado;
 }
 
-export default generarNumeroRomano;
+export default generarNumeroRomano; 

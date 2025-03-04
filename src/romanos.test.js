@@ -1,6 +1,6 @@
 import generarNumeroRomano from "./romanos.js";
 
-describe("NumeroRomano", () => {
+describe("generarNumeroRomano", () => {
   it("deberia poner el valor correspondiente en romano", () => {
     expect(generarNumeroRomano(3)).toEqual('III');
   });

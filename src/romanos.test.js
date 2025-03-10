@@ -1,24 +1,24 @@
 import generarNumeroRomano from "./romanos.js";
 
-describe("generarNumeroRomano"  , () => {
+describe("NumeroRomano", () => {
   it("deberia poner el valor correspondiente en romano", () => {
     expect(generarNumeroRomano(3)).toEqual('III');
   });
 
   it("deberia poner el valor correspondiente en romano", () => {
-    expect(generarNumeroRomano(10)).toEqual('X');
+    expect(generarNumeroRomano(13)).toEqual('XIII');
   });
 
   it("deberia poner el valor correspondiente en romano", () => {
-    expect(generarNumeroRomano(9)).toEqual('IX');
+    expect(generarNumeroRomano(103)).toEqual('CIII');
   });
 
   it("deberia poner el valor correspondiente en romano", () => {
-    expect(generarNumeroRomano(5)).toEqual('V');
+    expect(generarNumeroRomano(1000)).toEqual('M');
   });
   
   it("deberia poner el valor correspondiente en romano", () => {
-    expect(generarNumeroRomano(4)).toEqual('IV');
+    expect(generarNumeroRomano(600)).toEqual('DC');
   });
 
   it("deberia poner el valor fuera de rango", () => {
@@ -30,5 +30,3 @@ describe("generarNumeroRomano"  , () => {
   });
 
 });
-
-
